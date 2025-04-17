@@ -8,19 +8,21 @@ log_entry() {
   SECTION_NAME=$1
   FOLDER=$2
 
-  FILE=$(find "$FOLDER" -type f -name "*.*" -newermt "$TODAY" ! -newermt "$TODAY 23:59:59" | head -n 1)
+  # List all files in folder
+  for FILE in "$FOLDER"/*; do
+    [ -e "$FILE" ] || continue  # skip if folder is empty
 
-  if [[ -n "$FILE" ]]; then
     FILENAME=$(basename "$FILE")
-    TASK_NAME=$(echo "$FILENAME" | sed "s/\..*//;s/_/ /g" | sed 's/\b\(.\)/\u\1/g')
-
-    # Check if already logged
+    
+    # Skip if already logged
     if grep -q "$FILENAME" "$LOG_FILE"; then
       echo "⚠️ Already logged: $FILENAME – Skipping."
-      return
+      continue
     fi
 
-    # Auto log with default message
+    TASK_NAME=$(echo "$FILENAME" | sed "s/\..*//;s/_/ /g" | sed 's/\b\(.\)/\u\1/g')
+
+    # Add to log
     sed -i '' "2i\\
 \\
 ## ✅ $TODAY\\
@@ -37,7 +39,7 @@ log_entry() {
 
     echo "✅ Logged: $TASK_NAME in $FOLDER"
     UPDATED=true
-  fi
+  done
 }
 
 log_entry "LeetCode" "leetcode"
@@ -47,7 +49,7 @@ log_entry "MIT MicroMasters" "mit-micromasters"
 log_entry "GFG Data Science" "gfg-ds"
 
 if [ "$UPDATED" = false ]; then
-  echo "⚠️ No new files found for today (or already logged)."
+  echo "⚠️ No new files found for today (or all already logged)."
   exit 0
 fi
 
