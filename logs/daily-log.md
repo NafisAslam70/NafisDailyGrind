@@ -7,7 +7,7 @@
 - 📁 File: `codingninjas/reverseLL_iterative.py`
 
 📝 Notes:
-- Practiced key concepts.
+- USE precv/curr, run loop carefull exchange, retun prev.
 
 ---
 
