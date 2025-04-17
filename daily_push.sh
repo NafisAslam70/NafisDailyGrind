@@ -20,24 +20,7 @@ log_entry() {
       return
     fi
 
-    # Ask user for image
-    echo "🖼️ Do you want to attach a picture for notes? (y/n)"
-    read ADD_IMAGE
-
-    IMAGE_MARKDOWN=""
-    if [[ "$ADD_IMAGE" == "y" || "$ADD_IMAGE" == "Y" ]]; then
-      echo "📂 Please move your image (png/jpg) to 'notes-images/' and enter the filename (e.g. mynote.png):"
-      read IMAGE_FILE
-      IMAGE_PATH="notes-images/$IMAGE_FILE"
-
-      if [[ -f "$IMAGE_PATH" ]]; then
-        IMAGE_MARKDOWN="![Note Image]($IMAGE_PATH)"
-      else
-        echo "⚠️ File not found. Skipping image."
-      fi
-    fi
-
-    # Create log entry
+    # Auto log with default message
     sed -i '' "2i\\
 \\
 ## ✅ $TODAY\\
@@ -48,7 +31,6 @@ log_entry() {
 \\
 📝 Notes:\\
 - Practiced key concepts.\\
-$IMAGE_MARKDOWN\\
 \\
 ---\\
 " $LOG_FILE
@@ -74,4 +56,4 @@ git add .
 git commit -m "✅ Daily update: $TODAY"
 git push
 
-echo "🚀 All done! Green square + visual proof locked in!"
+echo "🚀 Green square secured. Nothing else to do 😎"
