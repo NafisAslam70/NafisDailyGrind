@@ -3,6 +3,17 @@
 ## ✅ 2025-04-17
 
 **Coding Ninjas:**
+- [x] reverseLL iterative
+- 📁 File: `codingninjas/reverseLL_iterative.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-17
+
+**Coding Ninjas:**
 - [x] reverseLL recur
 - 📁 File: `codingninjas/reverseLL_recur.py`
 
