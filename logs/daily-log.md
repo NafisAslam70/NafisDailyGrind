@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-18
+
+**LeetCode:**
+- [x] 234 palindromeLinkedList
+- 📁 File: `leetcode/234_palindromeLinkedList.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-17
 
 **Coding Ninjas:**
