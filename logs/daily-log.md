@@ -2,6 +2,39 @@
 
 ## ✅ 2025-04-18
 
+**Coding Ninjas:**
+- [x] midLL
+- 📁 File: `codingninjas/midLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-18
+
+**Coding Ninjas:**
+- [x] mergeSortLL
+- 📁 File: `codingninjas/mergeSortLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-18
+
+**LeetCode:**
+- [x] 148 sortList
+- 📁 File: `leetcode/148_sortList.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-18
+
 **LeetCode:**
 - [x] 234 palindromeLinkedList
 - 📁 File: `leetcode/234_palindromeLinkedList.py`
