@@ -7,7 +7,8 @@
 - 📁 File: `leetcode/234_palindromeLinkedList.py`
 
 📝 Notes:
-- Practiced key concepts.
+- 3 steps: (1) Lnegth nikaalo aagar even to mid=l//2 agar odd mid=l//2+1
+(2) second hald ka reverse lo (3) first haldf and second half each element compare karo if true return true.
 
 ---
 
