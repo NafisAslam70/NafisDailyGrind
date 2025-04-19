@@ -18,7 +18,7 @@
 - 📁 File: `leetcode/19_removeNthNodeFromEnd.py`
 
 📝 Notes:
-- Practiced key concepts.
+- fast and slow bhia ..fast pehle hi 20 qadam aage..slwo N-20 pe khatnm krega jab fast poora khtm kr dega.
 
 ---
 
