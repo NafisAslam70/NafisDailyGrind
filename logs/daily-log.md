@@ -3,6 +3,17 @@
 ## ✅ 2025-04-19
 
 **LeetCode:**
+- [x] 2 AddTwoNumuers
+- 📁 File: `leetcode/2_AddTwoNumbers.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-19
+
+**LeetCode:**
 - [x] 19 removeNthNodeFromEnd
 - 📁 File: `leetcode/19_removeNthNodeFromEnd.py`
 
