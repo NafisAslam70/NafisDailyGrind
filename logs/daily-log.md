@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-19
+
+**LeetCode:**
+- [x] 146 LinkedLIstCycleII
+- 📁 File: `leetcode/146_LinkedLIstCycleII.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-18
 
 **Coding Ninjas:**
