@@ -7,7 +7,7 @@
 - 📁 File: `leetcode/2_AddTwoNumbers.py`
 
 📝 Notes:
-- Practiced key concepts.
+- pythonic shoirthands...if l1: l1=l1.next hahaha.
 
 ---
 
