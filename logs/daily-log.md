@@ -3,6 +3,16 @@
 ## ✅ 2025-04-20
 
 **Coding Ninjas:**
+- [x] swapNodes
+- 📁 File: `codingninjas/swapNodes.py`
+
+📝 Notes:
+- Bhaut pareshaan kiyaa..2hours through solving and toiling
+---
+
+## ✅ 2025-04-20
+
+**Coding Ninjas:**
 - [x] KreverseLL
 - 📁 File: `codingninjas/KreverseLL.py`
 
