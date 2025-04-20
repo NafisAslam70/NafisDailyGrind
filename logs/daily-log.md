@@ -1,5 +1,27 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-20
+
+**Coding Ninjas:**
+- [x] KreverseLL
+- 📁 File: `codingninjas/KreverseLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-20
+
+**LeetCode:**
+- [x] 1721 swapNodes
+- 📁 File: `leetcode/1721_swapNodes.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-19
 
 **Coding Ninjas:**
