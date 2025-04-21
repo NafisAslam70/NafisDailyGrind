@@ -1,5 +1,49 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-21
+
+**Coding Ninjas:**
+- [x] arr tripletSum
+- 📁 File: `codingninjas/arr_tripletSum.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-21
+
+**Coding Ninjas:**
+- [x] arr rotateArray
+- 📁 File: `codingninjas/arr_rotateArray.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-21
+
+**Coding Ninjas:**
+- [x] arr removeDuplicate
+- 📁 File: `codingninjas/arr_removeDuplicate.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-21
+
+**Coding Ninjas:**
+- [x] arr pairSum
+- 📁 File: `codingninjas/arr_pairSum.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-20
 
 **Coding Ninjas:**
