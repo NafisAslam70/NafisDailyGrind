@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-23
+
+**Coding Ninjas:**
+- [x] oops1 classStudent
+- 📁 File: `codingninjas/oops1_classStudent.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-21
 
 **Coding Ninjas:**
