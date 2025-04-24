@@ -3,6 +3,105 @@
 ## ✅ 2025-04-24
 
 **Coding Ninjas:**
+- [x] stack isBalancedParenthesis
+- 📁 File: `codingninjas/stack_isBalancedParenthesis.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL swapNodes
+- 📁 File: `codingninjas/LL_swapNodes.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL reverseLL recur
+- 📁 File: `codingninjas/LL_reverseLL_recur.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL reverseLL iterative
+- 📁 File: `codingninjas/LL_reverseLL_iterative.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL midLL
+- 📁 File: `codingninjas/LL_midLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL mergeSortLL
+- 📁 File: `codingninjas/LL_mergeSortLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL lengthRecursive
+- 📁 File: `codingninjas/LL_lengthRecursive.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL evenAfterOdd
+- 📁 File: `codingninjas/LL_evenAfterOdd.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] LL KreverseLL
+- 📁 File: `codingninjas/LL_KreverseLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
 - [x] stack impleLL
 - 📁 File: `codingninjas/stack_impleLL.py`
 
