@@ -1,5 +1,27 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] stack impleLL
+- 📁 File: `codingninjas/stack_impleLL.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-24
+
+**Coding Ninjas:**
+- [x] stack impleArray
+- 📁 File: `codingninjas/stack_impleArray.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-23
 
 **Coding Ninjas:**
