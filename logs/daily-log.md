@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-25
+
+**Coding Ninjas:**
+- [x] stack reverseStack
+- 📁 File: `codingninjas/stack_reverseStack.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-24
 
 **Coding Ninjas:**
