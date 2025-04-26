@@ -2,6 +2,17 @@
 
 ## ✅ 2025-04-26
 
+**Coding Ninjas:**
+- [x] stack checkRedundantBrackets
+- 📁 File: `codingninjas/stack_checkRedundantBrackets.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-26
+
 **LeetCode:**
 - [x] 155 MinStack
 - 📁 File: `leetcode/155_MinStack.py`
