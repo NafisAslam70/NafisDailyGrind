@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-26
+
+**LeetCode:**
+- [x] 20 BalancedParenthesis
+- 📁 File: `leetcode/20_BalancedParenthesis.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-25
 
 **Coding Ninjas:**
