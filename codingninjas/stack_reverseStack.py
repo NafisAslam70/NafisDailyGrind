@@ -1,14 +1,17 @@
-def insertAtBottom(stack, item):
-    if not stack:
-        stack.append(item)
+def reverseStack(inputStack, extraStack) :
+	#Your code goes here
+    if len(inputStack)<=1:
         return
-    top = stack.pop()
-    insertAtBottom(stack, item)
-    stack.append(top)
 
-def reverseStack(inputStack, extraStack):
-    if not inputStack:
-        return
-    top = inputStack.pop()
-    reverseStack(inputStack, extraStack)
-    insertAtBottom(inputStack, top)
+    while len(inputStack)!=1:
+        el=inputStack.pop()
+        extraStack.append(el)
+    
+    lastele=inputStack.pop()
+
+    while len(extraStack)!=0:
+        el=extraStack.pop()
+        inputStack.append(el)
+    
+    reverseStack(inputStack,extraStack)
+    inputStack.append(lastele)

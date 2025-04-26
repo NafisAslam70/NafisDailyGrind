@@ -3,6 +3,17 @@
 ## ✅ 2025-04-26
 
 **LeetCode:**
+- [x] 155 MinStack
+- 📁 File: `leetcode/155_MinStack.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-26
+
+**LeetCode:**
 - [x] 20 BalancedParenthesis
 - 📁 File: `leetcode/20_BalancedParenthesis.py`
 
