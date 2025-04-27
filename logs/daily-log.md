@@ -3,6 +3,17 @@
 ## ✅ 2025-04-27
 
 **LeetCode:**
+- [x] 150 evaluateReversePolishedNotation
+- 📁 File: `leetcode/150_evaluateReversePolishedNotation.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-27
+
+**LeetCode:**
 - [x] 503 nextGreaterElement II
 - 📁 File: `leetcode/503_nextGreaterElement_II.py`
 
