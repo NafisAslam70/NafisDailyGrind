@@ -3,6 +3,17 @@
 ## ✅ 2025-04-27
 
 **LeetCode:**
+- [x] 503 nextGreaterElement II
+- 📁 File: `leetcode/503_nextGreaterElement_II.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-27
+
+**LeetCode:**
 - [x] 56 mergeIntervals
 - 📁 File: `leetcode/56_mergeIntervals.py`
 
