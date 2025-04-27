@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-27
+
+**LeetCode:**
+- [x] 56 mergeIntervals
+- 📁 File: `leetcode/56_mergeIntervals.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-26
 
 **Coding Ninjas:**
