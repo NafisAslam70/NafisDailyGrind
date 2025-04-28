@@ -1,5 +1,38 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-28
+
+**Coding Ninjas:**
+- [x] stack minimumBracketReversal
+- 📁 File: `codingninjas/stack_minimumBracketReversal.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-28
+
+**Coding Ninjas:**
+- [x] arr equilibriumIndex
+- 📁 File: `codingninjas/arr_equilibriumIndex.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-28
+
+**LeetCode:**
+- [x] 3 LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/3_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-27
 
 **LeetCode:**
