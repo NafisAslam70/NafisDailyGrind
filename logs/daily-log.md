@@ -13,6 +13,28 @@
 
 ## ✅ 2025-04-28
 
+**LeetCode:**
+- [x] 239 SlidingWindowMaximum
+- 📁 File: `leetcode/239_SlidingWindowMaximum.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-28
+
+**LeetCode:**
+- [x] [optimal]3 LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/[optimal]3_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-28
+
 **Coding Ninjas:**
 - [x] stack minimumBracketReversal
 - 📁 File: `codingninjas/stack_minimumBracketReversal.py`
