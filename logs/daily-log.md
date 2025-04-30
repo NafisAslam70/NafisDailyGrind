@@ -3,6 +3,17 @@
 ## ✅ 2025-04-30
 
 **LeetCode:**
+- [x] optimal 3 LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/optimal_3_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-30
+
+**LeetCode:**
 - [x] [optimal]3 LongestSubstringWithoutRepeatingCharacter
 - 📁 File: `leetcode/[optimal]3_LongestSubstringWithoutRepeatingCharacter.py`
 
