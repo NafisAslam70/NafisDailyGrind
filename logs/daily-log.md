@@ -1,5 +1,27 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-04-30
+
+**LeetCode:**
+- [x] [optimal]3 LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/[optimal]3_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-04-30
+
+**LeetCode:**
+- [x] 15 3Sum
+- 📁 File: `leetcode/15_3Sum.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-04-29
 
 **LeetCode:**
