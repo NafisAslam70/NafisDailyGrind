@@ -1,4 +1,14 @@
 # 📅 Nafis's Daily Grind Log
+## ✅ 2025-05-01
+
+**LeetCode:**
+- [x] 128 LongestConsecutiveSequence
+- 📁 File: `leetcode/128_LongestConsecutiveSequence.py`
+
+📝 Notes:
+- Used set() for O(n) time solution.
+
+---
 
 ## ✅ 2025-04-30
 
