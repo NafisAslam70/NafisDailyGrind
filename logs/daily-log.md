@@ -3,6 +3,17 @@
 ## ✅ 2025-05-02
 
 **LeetCode:**
+- [x] 242 validAnagram
+- 📁 File: `leetcode/242_validAnagram.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-05-02
+
+**LeetCode:**
 - [x] optimal 3 LongestSubstringWithoutRepeatingCharacter
 - 📁 File: `leetcode/optimal_3_LongestSubstringWithoutRepeatingCharacter.py`
 
