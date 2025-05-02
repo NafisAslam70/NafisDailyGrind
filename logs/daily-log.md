@@ -1,4 +1,26 @@
 # 📅 Nafis's Daily Grind Log
+
+## ✅ 2025-05-02
+
+**LeetCode:**
+- [x] optimal 3 LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/optimal_3_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-05-02
+
+**LeetCode:**
+- [x] 217 containsDuplicate
+- 📁 File: `leetcode/217_containsDuplicate.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
 ## ✅ 2025-05-01
 
 **LeetCode:**
