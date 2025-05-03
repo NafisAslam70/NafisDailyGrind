@@ -1,5 +1,27 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-03
+
+**LeetCode:**
+- [x] 75 sortColors
+- 📁 File: `leetcode/75_sortColors.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-05-03
+
+**LeetCode:**
+- [x] 3 optimal LongestSubstringWithoutRepeatingCharacter
+- 📁 File: `leetcode/3_optimal_LongestSubstringWithoutRepeatingCharacter.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-02
 
 **LeetCode:**
