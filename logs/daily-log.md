@@ -2,6 +2,17 @@
 
 ## ✅ 2025-05-04
 
+**LeetCode:**
+- [x] 42 trappingRainWater
+- 📁 File: `leetcode/42_trappingRainWater.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+## ✅ 2025-05-04
+
 **Coding Ninjas:**
 - [x] oops inheritance
 - 📁 File: `codingninjas/oops_inheritance.py`
