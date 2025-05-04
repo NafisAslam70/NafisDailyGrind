@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-04
+
+**LeetCode:**
+- [x] 167 TwoSum-II
+- 📁 File: `leetcode/167_TwoSum-II.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-03
 
 **LeetCode:**
