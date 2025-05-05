@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-05
+
+**LeetCode:**
+- [x] 11 containerWithMostWater
+- 📁 File: `leetcode/11_containerWithMostWater.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-04
 
 **LeetCode:**
