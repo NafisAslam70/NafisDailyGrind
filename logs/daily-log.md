@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-06
+
+**LeetCode:**
+- [x] 125 validPalindrome
+- 📁 File: `leetcode/125_validPalindrome.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-05
 
 **LeetCode:**
