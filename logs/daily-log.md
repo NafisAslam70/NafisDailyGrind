@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-07
+
+**LeetCode:**
+- [x] 73 setMatrixZero
+- 📁 File: `leetcode/73_setMatrixZero.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-06
 
 **LeetCode:**
