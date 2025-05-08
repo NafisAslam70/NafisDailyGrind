@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-08
+
+**Coding Ninjas:**
+- [x] oops3 divisionProblem
+- 📁 File: `codingninjas/oops3_divisionProblem.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-07
 
 **LeetCode:**
