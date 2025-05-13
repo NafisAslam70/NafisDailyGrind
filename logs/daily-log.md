@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-13
+
+**LeetCode:**
+- [x] 54 spiralMatrix
+- 📁 File: `leetcode/54_spiralMatrix.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-08
 
 **Coding Ninjas:**
