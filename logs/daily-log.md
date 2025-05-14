@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-14
+
+**LeetCode:**
+- [x] 152 maxProductArray
+- 📁 File: `leetcode/152_maxProductArray.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-13
 
 **LeetCode:**
