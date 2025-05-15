@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-05-15
+
+**Coding Ninjas:**
+- [x] stack Ag reverseStack
+- 📁 File: `codingninjas/stack_Ag_reverseStack.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
 ## ✅ 2025-05-14
 
 **LeetCode:**
