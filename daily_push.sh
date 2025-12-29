@@ -5,17 +5,27 @@ TODAY=$(date +%F)
 LOG_FILE="logs/daily-log.md"
 UPDATED=false
 
+is_logged_today() {
+  local file_path="$1"
+  awk -v date="$TODAY" -v file="$file_path" '
+    /^## ✅ / { in_day = ($0 == "## ✅ " date); next }
+    in_day && index($0, file) { exit 0 }
+    END { exit 1 }
+  ' "$LOG_FILE"
+}
+
 log_entry() {
   SECTION_NAME=$1
   FOLDER=$2
 
-  for FILE in "$FOLDER"/*; do
+  while IFS= read -r FILE; do
     [ -e "$FILE" ] || continue
     FILENAME=$(basename "$FILE")
+    FILE_PATH=${FILE#./}
 
-    # Skip if already logged
-    if grep -q "$FILENAME" "$LOG_FILE"; then
-      echo "⚠️ Already logged: $FILENAME – Skipping."
+    # Skip if already logged today
+    if is_logged_today "$FILE_PATH"; then
+      echo "⚠️ Already logged today: $FILE_PATH – Skipping."
       continue
     fi
 
@@ -25,9 +35,10 @@ log_entry() {
 \\
 ## ✅ $TODAY\\
 \\
+
 **$SECTION_NAME:**\\
 - [x] $TASK_NAME\\
-- 📁 File: \`$FOLDER/$FILENAME\`\\
+- 📁 File: \`$FILE_PATH\`\\
 \\
 📝 Notes:\\
 - Practiced key concepts.\\
@@ -35,16 +46,16 @@ log_entry() {
 ---\\
 " $LOG_FILE
 
-    echo "✅ Logged: $TASK_NAME in $FOLDER"
+    echo "✅ Logged: $TASK_NAME in $FILE_PATH"
     UPDATED=true
-  done
+  done < <(find "$FOLDER" -type f)
 }
 
 log_entry "LeetCode" "leetcode"
 log_entry "Coding Ninjas" "codingninjas"
 log_entry "ML Projects" "ml-projects"
 log_entry "MIT MicroMasters" "mit-micromasters"
-log_entry "GFG Data Science" "gfg-ds"
+log_entry "GFG Data Science" "gfg-dataScience"
 
 if [ "$UPDATED" = false ]; then
   echo "⚠️ No new files found for today (or all already logged)."
