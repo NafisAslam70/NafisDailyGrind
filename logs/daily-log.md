@@ -1,5 +1,17 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2025-12-29
+
+**LeetCode:**
+- [x] 94 inorderTraversal
+- 📁 File: `leetcode/94_inorderTraversal.py`
+
+📝 Notes:
+- Practiced key concepts.
+
+---
+
+
 ## ✅ 2025-05-15
 
 **Coding Ninjas:**
