@@ -1,10 +1,24 @@
 # NafisDailyGrind
 
-🚀 Daily grind for DSA, Data Science, Machine Learning, and Coursework consistency.
+🚀 A daily record of my work in Data Science, Artificial Intelligence, DSA, and computer vision.
 
-📅 This repo includes:
-- LeetCode & Coding Ninjas DSA
-- ML project work
-- MIT MicroMasters exercises
-- GFG Data Science prep
-- All other coding things that I do daily
+## Current journey
+
+I have been selected for the Joint Master's in Data Science and Artificial Intelligence offered by the Indian Institute of Technology Madras (IIT Madras) and the University of Birmingham.
+
+## Current focus
+
+- **IITM academics:** Mathematical Foundations of Data Science (MFDS), Foundations of Machine Learning (FML), and Data Science and Data Analytics (DSDS)
+- **Personal DSA:** LeetCode and Coding Ninjas practice in [`personal-dsa-journey`](personal-dsa-journey)
+- **WorldQuant:** Computer Vision work
+
+This repository helps me stay consistent by logging daily progress across these tracks.
+
+## Finished milestones
+
+- **ISI internship**
+- **MIT MicroMasters exercises**
+- **GFG Data Science preparation**
+- Earlier ML project work
+
+Completed work is documented in the [finished](finished) archive, while the original folders remain available for reference.

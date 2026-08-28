@@ -1,5 +1,16 @@
 # 📅 Nafis's Daily Grind Log
 
+## ✅ 2026-08-28
+
+**LeetCode (Personal DSA):**
+- [x] 912 Sort an Array — Heap Sort
+- 📁 File: `personal-dsa-journey/leetcode/912_sortAnArray_HeapSort.py`
+
+📝 Notes:
+- Practiced Heap Sort by solving LeetCode 912.
+
+---
+
 ## ✅ 2025-12-29
 
 **LeetCode:**

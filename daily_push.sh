@@ -5,12 +5,16 @@ TODAY=$(date +%F)
 LOG_FILE="logs/daily-log.md"
 UPDATED=false
 
-is_logged_today() {
+is_logged() {
   local file_path="$1"
-  awk -v date="$TODAY" -v file="$file_path" '
-    /^## ✅ / { in_day = ($0 == "## ✅ " date); next }
-    in_day && index($0, file) { exit 0 }
-    END { exit 1 }
+  local previous_path="$file_path"
+
+  # Keep old log entries valid after moving DSA solutions into Personal DSA Journey.
+  previous_path=${previous_path#personal-dsa-journey/}
+
+  awk -v file="$file_path" -v old_file="$previous_path" '
+    index($0, file) || index($0, old_file) { found = 1; exit }
+    END { exit !found }
   ' "$LOG_FILE"
 }
 
@@ -18,14 +22,17 @@ log_entry() {
   SECTION_NAME=$1
   FOLDER=$2
 
+  # A track can be added before its first piece of work exists.
+  [ -d "$FOLDER" ] || return
+
   while IFS= read -r FILE; do
     [ -e "$FILE" ] || continue
     FILENAME=$(basename "$FILE")
     FILE_PATH=${FILE#./}
 
-    # Skip if already logged today
-    if is_logged_today "$FILE_PATH"; then
-      echo "⚠️ Already logged today: $FILE_PATH – Skipping."
+    # Log each file once, including files recorded before a folder was renamed.
+    if is_logged "$FILE_PATH"; then
+      echo "⚠️ Already logged: $FILE_PATH – Skipping."
       continue
     fi
 
@@ -48,14 +55,15 @@ log_entry() {
 
     echo "✅ Logged: $TASK_NAME in $FILE_PATH"
     UPDATED=true
-  done < <(find "$FOLDER" -type f)
+  done < <(find "$FOLDER" -type f ! -name 'README.md' ! -name '.gitkeep')
 }
 
-log_entry "LeetCode" "leetcode"
-log_entry "Coding Ninjas" "codingninjas"
-log_entry "ML Projects" "ml-projects"
-log_entry "MIT MicroMasters" "mit-micromasters"
-log_entry "GFG Data Science" "gfg-dataScience"
+# Finished tracks (ISI internship, MIT MicroMasters, GFG Data Science, and earlier
+# ML projects) are kept in the repository for reference but are not daily-logged.
+log_entry "LeetCode (Personal DSA)" "personal-dsa-journey/leetcode"
+log_entry "Coding Ninjas (Personal DSA)" "personal-dsa-journey/codingninjas"
+log_entry "IITM Academics — MFDS, FML & DSDS" "iitm-academics"
+log_entry "WorldQuant Computer Vision" "worldquant-computer-vision"
 
 if [ "$UPDATED" = false ]; then
   echo "⚠️ No new files found for today (or all already logged)."
