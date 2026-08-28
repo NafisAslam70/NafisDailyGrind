@@ -11,6 +11,7 @@ I have been selected for the Joint Master's in Data Science and Artificial Intel
 - **IITM academics:** Mathematical Foundations of Data Science (MFDS), Foundations of Machine Learning (FML), and Data Science and Data Analytics (DSDS)
 - **Personal DSA:** LeetCode and Coding Ninjas practice in [`personal-dsa-journey`](personal-dsa-journey)
 - **WorldQuant:** Computer Vision work
+- **Computer Vision & Deep Learning:** independent learning and projects in [`ComputerVision&DL`](<ComputerVision&DL>)
 
 This repository helps me stay consistent by logging daily progress across these tracks.
 

@@ -64,6 +64,7 @@ log_entry "LeetCode (Personal DSA)" "personal-dsa-journey/leetcode"
 log_entry "Coding Ninjas (Personal DSA)" "personal-dsa-journey/codingninjas"
 log_entry "IITM Academics — MFDS, FML & DSDS" "iitm-academics"
 log_entry "WorldQuant Computer Vision" "worldquant-computer-vision"
+log_entry "Computer Vision & Deep Learning" "ComputerVision&DL"
 
 if [ "$UPDATED" = false ]; then
   echo "⚠️ No new files found for today (or all already logged)."
